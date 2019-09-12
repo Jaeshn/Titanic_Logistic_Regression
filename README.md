@@ -1,0 +1,2 @@
+# Titanic_Logistic_Regression
+通过Logistic Regression预测Titanic乘客能否在事故中生还
