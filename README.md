@@ -17,13 +17,13 @@
 
 预览数据：
 
-- |pclass|	survived|	name|	sex|	age|	sibsp|	parch|	ticket|	fare|	cabin|	embarked|
-|-|	-|	-|	-|	-	|-|	-|	-|	-	|-|	-	|-|
-|0|	1.0|	1.0|	Allen, Miss. Elisabeth Walton|	female	|29.0000|	0.0|	0.0|	24160	|211.3375|	B5	|S|
-|1|	1.0|	1.0|	Allison, Master. Hudson Trevor|	male|	0.9167|	1.0	|2.0	|113781	|151.5500|	C22 C26	|S|
-|2|	1.0|	0.0|	Allison, Miss. Helen Loraine|	female|	2.0000	|1.0	|2.0	|113781	|151.5500	|C22 C26|	S|
-|3|	1.0|	0.0|	Allison, Mr. Hudson Joshua Creighton|	male|	30.0000|	1.0|	2.0|	113781	|151.5500|	C22 C26|	S|
-|4|	1.0|	0.0|	Allison, Mrs. Hudson J C (Bessie Waldo Daniels)|	female|	25.0000	|1.0	|2.0	|113781	|151.5500	|C22 C26	|S|
+- |pclass|	survived|	name|	sex|	age|	sibsp|	parch|	ticket|	fare|	cabin|	embarked
+-|	-|	-|	-|	-	|-|	-|	-|	-	|-|	-	|-
+0|	1.0|	1.0|	Allen, Miss. Elisabeth Walton|	female	|29.0000|	0.0|	0.0|	24160	|211.3375|	B5	|S|
+1|	1.0|	1.0|	Allison, Master. Hudson Trevor|	male|	0.9167|	1.0	|2.0	|113781	|151.5500|	C22 C26	|S|
+2|	1.0|	0.0|	Allison, Miss. Helen Loraine|	female|	2.0000	|1.0	|2.0	|113781	|151.5500	|C22 C26|	S|
+3|	1.0|	0.0|	Allison, Mr. Hudson Joshua Creighton|	male|	30.0000|	1.0|	2.0|	113781	|151.5500|	C22 C26|	S|
+4|	1.0|	0.0|	Allison, Mrs. Hudson J C (Bessie Waldo Daniels)|	female|	25.0000	|1.0	|2.0	|113781	|151.5500	|C22 C26	|S|
 
 <a id="t2."></a>
 # 2. 缺失数据处理
@@ -181,12 +181,12 @@ final.head()
 ```
 
 -|pclass|	survived|	age|	fare	|TravelAlone|	embarked_C|	embarked_Q	|embarked_S|	sex_female|	sex_male
--	|-	|-	|-|	-	|-	|-	|-	|-|	-|	-|
-|0	|1.0	|1.0	|29.0000|	211.3375	|1	|0	|0	|1|	1|	0|
-|1	|1.0	|1.0	|0.9167|	151.5500|	0	|0	|0	|1	0	|1|
-|2	|1.0	|0.0	|2.0000	|151.5500	|0	|0	|0	|1|	1	|0|
-|3	|1.0	|0.0	|30.0000	|151.5500|	0	|0|	0	|1	|0	|1|
-|4|1.0	|0.0	|25.0000	|151.5500|	0	|0	|0	|1	|1|	0|
+-	|-	|-	|-|	-	|-	|-	|-	|-|	-|	-
+0	|1.0	|1.0	|29.0000|	211.3375	|1	|0	|0	|1|	1|	0|
+1	|1.0	|1.0	|0.9167|	151.5500|	0	|0	|0	|1	0	|1|
+2	|1.0	|0.0	|2.0000	|151.5500	|0	|0	|0	|1|	1	|0|
+3	|1.0	|0.0	|30.0000	|151.5500|	0	|0|	0	|1	|0	|1|
+4|1.0	|0.0	|25.0000	|151.5500|	0	|0	|0	|1	|1|	0|
 
 <a id="t3."></a>
 # 3. 数据分析
