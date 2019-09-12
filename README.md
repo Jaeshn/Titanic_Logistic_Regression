@@ -181,10 +181,10 @@ final.drop('ticket', axis=1, inplace=True)
 final.head()
 ```
 
-\-|pclass|	survived|	age|	fare	|TravelAlone|	embarked_C|	embarked_Q	|embarked_S|	sex_female|	sex_male
--	|-	|-	|-|	-	|-	|-	|-	|-|	-|	-
+\-|pclass|survived|age|fare|TravelAlone|embarked_C|embarked_Q|embarked_S|sex_female|sex_male
+-|-|-|-|-|-|-|-|-|-|-
 0	|1.0	|1.0	|29.0000|	211.3375	|1	|0	|0	|1|	1|	0|
-1	|1.0	|1.0	|0.9167|	151.5500|	0	|0	|0	|1	0	|1|
+1	|1.0	|1.0	|0.9167|	151.5500|	0	|0	|0	|1|	0	|1|
 2	|1.0	|0.0	|2.0000	|151.5500	|0	|0	|0	|1|	1	|0|
 3	|1.0	|0.0	|30.0000	|151.5500|	0	|0|	0	|1	|0	|1|
 4|1.0	|0.0	|25.0000	|151.5500|	0	|0	|0	|1	|1|	0|
